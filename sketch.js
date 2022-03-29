@@ -22,7 +22,7 @@ function draw(){
     
     bg.velocityX=-3;
 
-    if(bg.x<700){
+    if(bg.x<500){
         bg.x=bg.width/2;
     }
     if(keyDown(DOWN_ARROW)){
